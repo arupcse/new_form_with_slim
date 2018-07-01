@@ -1,0 +1,253 @@
+
+form#standard h4 {
+	font-weight:bold;
+	font-size: 1.1em;
+    padding: 8px 10px;
+	/*-webkit-border-radius:4px 4px 0 0;
+	-moz-border-radius:4px 4px 0 0;
+	-o-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;*/
+	margin:15px 0 15px;
+}
+
+form#standard h4:first-child {
+	margin-top:0;
+}
+
+form#standard fieldset {
+	margin-bottom:15px;
+}
+
+form#standard p {
+    margin-left: 18px;
+    margin-right: 15px;
+}
+
+form#standard ul {
+	margin-left:25px;
+}
+
+form#standard fieldset p {
+	margin-left:0;
+}
+
+form#standard div.field label.error {
+	/*display:none; */
+	clear:both;
+	font-weight:bold;
+	color: #990000;
+	/*color: #0066CC;*/
+}
+
+form#standard div.field .error {
+	clear:both;
+    font-weight:normal;
+	color:#666666;
+
+}
+
+form#standard fieldset.field-full-width {
+    margin-left: 205px;
+    margin-right: 15px;
+}
+
+form fieldset label {
+	width:14em;
+	padding-right:1em;
+}
+form fieldset label.squish {
+	width:14em;
+	padding-right:0em;
+	margin: 0 0.5em 0 0;
+}
+.noSquish {
+	margin: 10em 0 0 0;
+	padding-left: 16em;
+}
+.inputSquish {
+	margin: 0 2em 0 0;
+}
+
+form fieldset label.full-width {
+	width:auto;
+    float: left;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 1em 5px 0;
+}
+
+form fieldset label span {
+	font-weight:normal;
+	font-style:italic;
+}
+
+form fieldset label span.inline {
+	display: inline;
+}
+
+select, textarea {
+	padding: 3px 3px 3px 8px;
+	border: 1px solid #CCCCCC;
+    color: #646870;
+    font-family: Arial,sans-serif;
+    font-size: 1em;
+    padding: 2px;
+}
+
+
+
+
+fieldset input[type="text"].other {
+	width:120px;
+}
+
+textarea.area {
+    height: 100px;
+    padding: 2px;
+    width: 450px;
+}
+
+/* I agree to the terms stated above */
+form fieldset label.iAgree {
+	width: 16em;
+}
+
+fieldset input[type="submit"], .submit input#submit_button {
+	background-image:url(/images/buttons/submit.gif);
+	width:62px;
+	background-position:top left;
+	height:25px;
+	margin:0;
+	padding:0;
+	border:0;
+	cursor:pointer;
+	font-size:0;
+	line-height:0;
+}
+
+.submit input#continue_button {
+	background-image:url(/images/buttons/continue.gif);
+	width:74px;
+	background-position:top left;
+	height:25px;
+	margin:0;
+	padding:0;
+	border:0;
+	cursor:pointer;
+	font-size:0;
+	line-height:0;
+}
+
+.submit input#next_button {
+	background-image:url(/images/buttons/next.gif);
+	width:49px;
+	background-position:top left;
+	height:25px;
+	margin:0;
+	padding:0;
+	border:0;
+	cursor:pointer;
+}
+
+
+.submit input#cancel_button {
+    background-image:url(/images/buttons/cancel.gif);
+    width:62px;
+    background-position:top left;
+    height:25px;
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:0;
+    cursor:pointer;
+}
+
+.submit input#edit_button {
+	background-image:url(/images/buttons/edit.gif);
+	width:47px;
+	background-position:top left;
+	height:25px;
+	margin:0;
+	padding:0;
+	border:0;
+	cursor:pointer;
+	font-size:0;
+	line-height:0;
+}
+
+form fieldset:last-child {
+    margin-top: 30px;
+}
+
+form div fieldset:last-child {
+	margin-top:0;
+}
+
+/* Minimum left padding for the Submit button box */
+form div.submitMinPadding {
+	padding-left:20px;
+}
+
+.note {
+	text-align:right;
+	font-style:italic;
+}
+
+
+label.mandatory {
+	background-image:url(/images/icons/asterisk.gif);
+	background-position:right 3px;
+	background-repeat:no-repeat;
+}
+
+/*
+New styles
+*/
+
+
+div.success{
+	background-color:#FFFFE5;
+	padding: 10px;
+}
+
+form .primary_email, form .primary_website {
+	display:none;
+	visibility: hidden;
+}
+
+form#standard{
+	border:0px solid red;
+	width:770px;
+}
+
+
+form fieldset div.field {
+	border:0px solid blue;
+	width:500px;
+}
+
+select {
+	width:290px;
+}
+
+
+form fieldset div{
+	overflow:auto;
+}
+
+form fieldset legend {
+	font-weight: bold;
+	float:left;
+	margin:0px 1em 0px 0px;
+}
+
+form fieldset legend {
+	width:14em;
+	padding-right:1em;
+}
+
+legend.mandatory {
+	background-image:url(/images/icons/asterisk.gif);
+	background-position:right 3px;
+	background-repeat:no-repeat;
+}
